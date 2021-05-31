@@ -1,0 +1,4 @@
+Curso de estudo em php na alura por jean everton
+PHP_EOL (string), O símbolo correto de 'Fim de linha' para esta plataforma.PHP_INT_MIN (int), O menor inteiro suportado nesta compilação do PHP. Geralmente int(-2147483648) em sistemas 32 bits e int(-9223372036854775808) em sistemas 64 bit. Normalmente PHP_INT_MIN === ~PHP_INT_MAX.
+PHP_EOL (string), O símbolo correto de 'Fim de linha' para esta plataforma.
+PHP_INT_MAX (int), O maior inteiro suportado nesta compilação do PHP. Geralmente int(2147483647) em sistemas de 32 bit e int(9223372036854775807) em sistemas de 64 bits.
