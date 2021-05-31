@@ -1,10 +1,10 @@
 <?php 
 
 
-$arquivo =  fopen("escritor-cursos.txt", "w"); // criar um aquivo com o nome curso-php.txt, o  W sobreescreve do inicio do arquivo.
+$arquivo =  fopen("escritor-cursos.txt", "a"); // criar um aquivo com o nome curso-php.txt , A ele coloca o cursor no final do arquivo e continua escrevendo.
 
 
-$curso = "Curso de php na aulra o melhor lugar para um programador aprender";
+$curso = "Curso de estudo em php na alura por jean everton" .PHP_EOL;
 
 //fwite, função para escrever em um arquivo 
 fwrite($arquivo, $curso); 
